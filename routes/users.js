@@ -98,6 +98,7 @@
 // module.exports = router;
 var express = require('express');
 var users = express.Router();
+var routes = require('./index');
 var database = require('../database/database');
 var cors = require('cors')
 var jwt = require('jsonwebtoken');
